@@ -1,4 +1,107 @@
-<h1>Hello world</h1>
-<h2>this is shyam</h2>
-<p>that's all for today</p>
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#services">Our Services</a></li>
+				<li><a href="#portfolio">Our Portfolio</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<h1>Welcome to Our Website</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac semper quam. Sed non ex elit.</p>
+			<a href="#services" class="btn">Learn More</a>
+		</div>
+	</header>
+	<section id="about">
+		<div class="container">
+			<h2>About Us</h2>
+			<div class="row">
+				<div class="col">
+					<h3>Our Mission</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac semper quam. Sed non ex elit. Phasellus lobortis nunc risus, at ullamcorper sapien euismod vel. Morbi fringilla mauris enim, vel consectetur risus consequat quis. Nam maximus, arcu vel laoreet interdum, ex tellus pretium dolor, nec blandit elit tellus ut risus. Praesent tincidunt quis libero vel fringilla. Etiam in orci vel odio lobortis laoreet. Sed et venenatis purus.</p>
+				</div>
+				<div class="col">
+					<h3>Our Team</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac semper quam. Sed non ex elit. Phasellus lobortis nunc risus, at ullamcorper sapien euismod vel. Morbi fringilla mauris enim, vel consectetur risus consequat quis. Nam maximus, arcu vel laoreet interdum, ex tellus pretium dolor, nec blandit elit tellus ut risus. Praesent tincidunt quis libero vel fringilla. Etiam in orci vel odio lobortis laoreet. Sed et venenatis purus.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services">
+		<div class="container">
+			<h2>Our Services</h2>
+			<div class="row">
+				<div class="service">
+					<i class="fa fa-laptop"></i>
+					<h3>Web Design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac semper quam. Sed non ex elit. Phasellus lobortis nunc risus, at ullamcorper sapien euismod vel. Morbi fringilla mauris enim, vel consectetur risus consequat quis. Nam maximus, arcu vel laoreet interdum, ex tellus pretium dolor, nec blandit elit tellus ut risus. Praesent tincidunt quis libero vel fringilla. Et
+                    </div>
+                    <div class="service">
+                        <i class="fa fa-mobile"></i>
+                        <h3>Mobile App Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac semper quam. Sed non ex elit. Phasellus lobortis nunc risus, at ullamcorper sapien euismod vel. Morbi fringilla mauris enim, vel consectetur risus consequat quis. Nam maximus, arcu vel laoreet interdum, ex tellus pretium dolor, nec blandit elit tellus ut risus. Praesent tincidunt quis libero vel fringilla. Etiam in orci vel odio lobortis laoreet. Sed et venenatis purus.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa fa-search"></i>
+                        <h3>SEO Optimization</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac semper quam. Sed non ex elit. Phasellus lobortis nunc risus, at ullamcorper sapien euismod vel. Morbi fringilla mauris enim, vel consectetur risus consequat quis. Nam maximus, arcu vel laoreet interdum, ex tellus pretium dolor, nec blandit elit tellus ut risus. Praesent tincidunt quis libero vel fringilla. Etiam in orci vel odio lobortis laoreet. Sed et venenatis purus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <div class="row">
+                    <div class="col">
+                        <img src="img/portfolio1.jpg" alt="Portfolio Item">
+                    </div>
+                    <div class="col">
+                        <img src="img/portfolio2.jpg" alt="Portfolio Item">
+                    </div>
+                    <div class="col">
+                        <img src="img/portfolio3.jpg" alt="Portfolio Item">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="img/portfolio4.jpg" alt="Portfolio Item">
+                    </div>
+                    <div class="col">
+                        <img src="img/portfolio5.jpg" alt="Portfolio Item">
+                    </div>
+                    <div class="col">
+                        <img src="img/portfolio6.jpg" alt="Portfolio Item">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2023 My Website. All Rights Reserved.</p>
+        </footer>
+    </body>
+    </html>
+    
